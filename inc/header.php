@@ -15,7 +15,7 @@
     &#8801
 </label>
 <nav class="menu">
-   <a href="/home.php" class="link">HOME</a>
+   <a href="/index.php" class="link">HOME</a>
     <a href="/inventory.php" class="link">INVENTORY</a>
     <a href="/portfolio.php" class="link">PORTFOLIO</a>
     <a href="/around.php" class="link">AROUND L&D</a>
