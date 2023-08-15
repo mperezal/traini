@@ -1,0 +1,142 @@
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+/*RESET*/
+body {
+    background-color: transparent; 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+}
+h3{
+    padding: 0 2em;  
+}
+.head1 {
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-left: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; 
+    
+}
+.support{
+    background-image: url(/images/inventory.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+}
+.titletext{
+  font-family: 'Noto Serif', serif;
+  font-size: large;
+}
+
+.maintext{
+  font-size: 80%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+text-align: justify;
+padding-right: 6em;
+
+}
+/*PARTE DE ABAJO DEL ENUMERADO*/
+
+.stitle{
+
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+padding-top:40px ;
+padding-bottom: 20px;
+}
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.article {
+  width: calc(33.33% - 2px); /* Ajustar el ancho según la cantidad de artículos por fila */
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px; /* Margen interno */
+  box-sizing: border-box; /* Incluye el padding en el ancho total de la caja */
+  word-wrap: break-word;
+
+}
+
+.back{
+  background-color: black;
+  color: #ffffff;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+}
+
+.date {
+  color:  rgb(25, 159, 161);
+  font-size: 75%;
+  text-align: right;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+.text{
+  font-size: 80%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+text-align: justify;
+}
+
+.icon{
+  width: 75%;
+  align-content: right;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.divmenu{
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  grid-gap:30px;
+}
+@media (max-width:896px){
+  .head1{
+    display: flex;
+    flex-direction: column; /* Arrange sections vertically */
+    padding: 1em;
+    padding-right: 1em;
+    margin: 0;
+
+
+
+}
+.support{
+  background-image: url(/images/inventory.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color: #ffffff;	
+  height: 300px;
+  width: 100%;
+  font: 80% helvetica;
+
+}
+
+.maintext{
+  width: 100%;
+
+}
+
+.article {
+  width: calc(100% - 2px); /* Ajustar el ancho según la cantidad de artículos por fila */
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px; /* Margen interno */
+  box-sizing: border-box; /* Incluye el padding en el ancho total de la caja */
+  word-wrap: break-word;
+
+}
+
+}

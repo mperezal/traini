@@ -1,0 +1,84 @@
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
+h3{
+  padding: 0 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.article {
+  width: calc(33.33% - 2px); /* Ajustar el ancho según la cantidad de artículos por fila */
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px; /* Margen interno */
+  box-sizing: border-box; /* Incluye el padding en el ancho total de la caja */
+  word-wrap: break-word;
+  line-height: 1.3em;
+
+}
+
+.article h2 {
+  color: #333;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+}
+
+.date {
+  font-style: italic;
+  color: #888;
+  font-size: 75%;
+  text-align: right;
+
+}
+.text{
+  font-size: 80%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+text-align: justify;
+}
+.title{
+  color: rgb(76, 162, 163);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-align: center;
+  font-size: 80%;
+}
+
+
+@media only screen and (max-width: 896px) {
+  /* Estilos para dispositivos con ancho máximo de 800px */
+  .article {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Estilos para dispositivos con ancho máximo de 600px */
+  .article {
+    width: 100%;
+  }
+}

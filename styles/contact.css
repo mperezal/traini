@@ -1,0 +1,228 @@
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+/*RESET*/
+body {
+    background-color: transparent; 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+}
+h3{
+    padding: 0 2em;  
+}
+.fondo{
+    background-image: url(/images/contact/contact.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.niebla{
+    content:'' ;
+    background: rgb(77, 77, 92, 0.6);}
+.claim{
+    position: absolute;
+
+        color: white; 
+        font-weight: bolder;
+        justify-content: left;
+        align-items: left;
+        margin: 20vh 90vh 10vh 10vh;
+        font-size:250%;
+        font-weight: bolder; 
+    }
+.form{
+    display: flex;
+    row-gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 1em 0em 1em;
+    font-size: 0.9em;
+    background-color: transparent;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 50vw;
+}    
+
+.campos {
+    display: grid;
+    flex-direction: column;
+    line-height: 2.1em;
+    background-color: white;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    font-size: 0.8em;    
+    height: 35vh;
+    width: 25vw;
+    padding: 5px 15px 5px 15px;
+}
+.c1{
+    font-weight: bold;
+    height: 190px;
+    width: 110px;
+
+
+}
+.c2{
+    font-weight:bold;
+    height: 120px;
+    width: 110px;
+
+
+
+}
+.c3{
+    height: 190px;
+    width: 110px;
+
+
+    font-weight:bold;
+
+}
+.subj{
+    display: grid;
+    grid-template-columns: 1.5fr 0.90fr;
+    align-items:flex-start;
+    width: 53vh;
+
+} 
+#bio{
+    width: 53vh;
+}
+#first-name, #last-name, #email {
+    width: 53vh;
+}
+.subtitle{
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Serif', serif;
+}  
+.submit{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgb(254, 255, 255);
+    padding: 10px 20px 10px 20px;
+    align-self:last baseline;
+    background-color: rgb(25, 159, 161);
+    border-radius: 10px;
+    transition: all 0.4s;
+    justify-self: right;
+    font-weight: bolder; 
+
+  }
+  .submit:hover{
+  background-color: rgb(136, 136, 136);
+  border-color: rgb(136, 136, 136);
+  }
+  .container {
+    display: flex;
+    justify-content:center;    
+}
+  .line{
+  width: 10px;
+  height: 10px;
+}
+.line1{
+    background-color: #9cc3e4;
+}
+.line2{
+    background-color: #fecf9f;
+    margin: 0 1em 0 1em;   
+}
+.line3{
+    background-color: #97daf4;
+}
+#subjects, #terms-and-conditions{
+    accent-color: rgb(25, 159, 161);
+  }
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+}
+  .ok{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif; 
+    color: grey;
+    text-align: right;
+    font-size: 95%;
+}
+  @media (max-width:896px){
+  .title{
+    display: none;  
+}
+    .claim{
+        display: none;
+        }
+
+    .form{
+        
+        position: relative;
+        font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        padding: 50px;
+
+            }
+
+            .campos {
+                display: grid;
+                flex-direction: column;
+                line-height: 2.1em;
+                background-color: white;
+                border: 1px solid rgb(136, 136, 136);
+                border-radius: 10px;
+                font-size: 0.8em;    
+                height: 70px;
+            }
+            .c1{
+                font-weight: bold;
+                height: 190px;
+                width: 310px;
+            
+            
+            }
+            .c2{
+                font-weight:bold;
+                height: 120px;
+                width: 310px;
+            
+            
+            
+            }
+            .c3{
+                height: 190px;
+                width: 310px;
+            
+            
+                font-weight:bold;
+            
+            }
+            .subj{
+                display: grid;
+                grid-template-columns: 1.5fr 0.90fr;
+                align-items:flex-start;
+                width: 305px;
+            
+            } 
+            #bio{
+                width: 305px;
+            }
+            #first-name, #last-name, #email {
+                width: 305px;
+            }
+            .submit{
+                text-decoration: none;
+                color: #ffffff;
+                border: 1px solid rgb(254, 255, 255);
+                padding: 6px 9px 6px 9px;
+                align-self:last baseline;
+                background-color: rgb(25, 159, 161);
+                border-radius: 10px;
+                transition: all 0.4s;
+                justify-self: right;
+                font-weight: bolder; 
+                font-size: 0.9em;
+            
+              }
+  }
