@@ -35,7 +35,7 @@ h3{
   margin-top: 2px;
   margin-bottom: 2px;
 text-align: justify;
-padding-right: 6em;
+margin-right: 6em;
 
 }
 /*PARTE DE ABAJO DEL ENUMERADO*/
@@ -126,7 +126,7 @@ text-align: justify;
 
 .maintext{
   width: 100%;
-padding: 1em;
+padding-right: none;
 }
 
 .article {
