@@ -126,14 +126,13 @@ text-align: justify;
 
 .maintext{
   width: 100%;
-padding-right: none;
 }
 
 .article {
   width: calc(100% - 2px); /* Ajustar el ancho según la cantidad de artículos por fila */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   align-items: center;
-  padding: 20px; /* Margen interno */
+  padding: 10px; /* Margen interno */
   box-sizing: border-box; /* Incluye el padding en el ancho total de la caja */
   word-wrap: break-word;
 
