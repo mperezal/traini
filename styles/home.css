@@ -13,7 +13,7 @@ ul{
 
 /*PARTE DEL BANNER*/
 #banner{
-display:flexbox;
+display:flex;
   flex-direction: row;
   background-image: url(/images/banner_todo.png);
   background-size:100%;
@@ -35,7 +35,7 @@ display:flexbox;
 }
 .contenido-banner h3{
   color: rgb(0, 0, 0);
-  margin-top: 1vw;
+  margin-top: 1vh;
   font: 3vw helvetica;
   font-weight: bolder;
   padding-bottom:0px;
@@ -43,6 +43,8 @@ display:flexbox;
   vertical-align: center;
   margin-right: 1vw;
   white-space: nowrap;
+
+
 
 }
 /*SUBTITULO DEL BANNER*/
@@ -60,7 +62,6 @@ display:flexbox;
 
   justify-content: center; /* Centra verticalmente el contenido */
   color: #000000;
-  height: 100%;
   line-height: 2;
   font-weight: bolder;
   text-align: left;
@@ -80,6 +81,7 @@ display:flexbox;
   margin-right: 30vh;
   font-size: 110%;
   padding-left: 60px;
+  font-family: 'Montserrat', sans-serif;
 
 }
 .botext{
@@ -92,16 +94,15 @@ display:flexbox;
 .boton-contact{
   display: relative;
   flex-direction: row;
-  margin-top: 25vh;
   margin-bottom: 5vh;
   margin-left:-5vw ;
   text-decoration: none;
   color: #ffffff;
   border: 1px solid #ffffff;
-  padding: 2vh 1.5vw;
+  padding: 1vh 1vw;
   align-self: last baseline;
   background-color: rgb(25, 159, 161);
-  border-radius: 10px;
+  border-radius: 1vh;
   transition: all 0.4s;
    
 }
@@ -165,26 +166,48 @@ border-color: rgb(136, 136, 136);
   display: none;
 }
 #banner{
-  padding: 0 10px;
   background-image: url(/images/banner3.png);
-  background-size:cover;
+  background-size:100%;
   background-position:center;
   background-repeat:no-repeat;
-  color: #ffffff;	
-  height: 500px;
-  font: 80% helvetica;
+  color: #000000;	
+  height: auto;
 }
 
-.bannerfoto img{
-display: none;
-  }
   
 .contenido-banner h3{
-  color: rgb(255, 255, 255);
-  margin-top: 90px;
-  font: 4vw helvetica;
-  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-top: 1vh;
+  font: 5vw helvetica;
+  font-weight: bolder;
+  padding-bottom:0px;
+  text-align: left;
+  vertical-align: center;
+  margin-right: 1vw;
+  white-space: nowrap;
+}
+.contenido-banner h2{
+  font-size: vw;
+  color: rgb(0, 0, 0);
+  text-align: left;
   padding-bottom:10px;
+  margin-top: 1vh;
+  white-space: nowrap;
+}
+
+.boton-contact{
+  display: relative;
+  flex-direction: row;
+  margin-bottom: 1vh;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 0.5vh 0.5vw;
+  align-self: last baseline;
+  background-color: rgb(25, 159, 161);
+  border-radius: 0.5vh;
+  transition: all 0.4s;
+   
 }
   /*ICONOS*/
 #contenidos-iconos{
@@ -194,21 +217,17 @@ display: none;
   font-family: 'Noto Serif', serif;
   font-size: 100%;
 }
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10vh;
+  font-size: 110%;
+  padding-left: 60px;
+}
 ul{
   font-size: 12px;
   list-style-type: none;
 }
-.boton-contact{
-  position:relative;
-  margin: 0vh 0vw 10vh 10vh;
 
-  text-decoration: none;
-  color: #ffffff;
-  border: 1px solid rgb(254, 255, 255);
-  padding: 10px 20px;
-  align-self: last baseline;
-  background-color: rgb(25, 159, 161);
-  border-radius: 10px;
-  transition: all 0.4s;
-}
 }
