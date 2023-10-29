@@ -130,14 +130,11 @@ div.overlay-blue:hover {
 
     @media (max-width:896px){
 
-
         h3{
             padding-left: 2em;
             font-family: 'Montserrat', sans-serif;
             padding-bottom: 2em;
             
- 
-
         }
 .flex{
     display:flex;
@@ -150,6 +147,7 @@ div.overlay-blue:hover {
 .slider{
     padding-bottom: 0px;
     padding-top: 0px;
+
 }
 .slider-wrapper div {
     position:flex;
@@ -208,6 +206,7 @@ div.overlay-blue:hover {
 .arrow{
     display: none;
 }
+
 div.overlay-blue{
     display: none;
 }

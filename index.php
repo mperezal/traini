@@ -8,22 +8,26 @@ include('inc/header.php')
 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <link rel="stylesheet" href="styles/home.css">
 <body>
+<div>
 <section id="banner">
     <div class="contenido-banner">
     <h3><span>Welcome to the site</span></h3>
-    <h2><span class="sub">Where I share my passions:</span></h2>
-    <span>E-learning</span>
-    <span>LMS</span>
-    <span>Programming</span>
-    <span>Knowledge management</span>
-    <span>Learning Experience</span>
-    <span>Instructional design</span>
-    <a href="/contact.php" class="boton-contact">CONTACT</a>
+    <h2><span class="sub">Where I share my PASSIONS</span></h2>
+    <span class="botext"> 
+    <span class= "text"><span >E-learning</span>
+    <span >LMS</span>
+    <span >Programming</span>
+    <span >Knowledge management</span>
+    <span >Learning Experience</span>
+    <span >Instructional design</span></span>   
+    <a href="/contact.php" class="boton-contact">CONTACT</a></span>
 </div>
+</div>
+
 </section>
 <section id="video">
     <div class="video-animado">
-<video src="video/anima.mov" autoplay loop muted></video>
+<video src="video/bannervideo.mov" autoplay loop muted></video>
 </div>
 </section>
 <section id="iconos">

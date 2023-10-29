@@ -72,6 +72,7 @@ order:1;
 }
 .link:hover {
   transform: scale(1.1);
+  font-weight: bolder;
   }
 #check{
   display: none;
