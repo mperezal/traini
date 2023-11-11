@@ -9,23 +9,33 @@ include('inc/header.php')
 <link rel="stylesheet" href="styles/home.css">
 <body>
 <div>
-<section id="banner">
-    <div class="contenido-banner">
-    <h3><span>Welcome to the site</span></h3>
-    <h2><span class="sub">where I share my passions</span></h2>
-    <span class="botext"> 
-    <span class= "text">
-    <span>E-learning</span>
-    <span >LMS</span>
-    <span >Programming</span>
-    <span >Knowledge management</span>
-    <span>Learning Experience</span>
-    <span>Instructional design</span></span> 
-    <a href="/contact.php" class="boton-contact">CONTACT</a></span>
+<section id="cartel">
+<div id="contenidos-cartel">
+    <div class="cartel1">
+    <h1>Welcome to the site</h1>
+        <h2>where I share my passions</h2>
+        <ul class="temas">
+    <li> E-learning</li>
+    <li> LMS</li>
+    <li> Programming</li>
+    <li> Knowledge transfer</li>
+    <li> Learning Experience</li>
+    <li> Instructional design </li>
+</ul><div class="contacto">
+<div class="boton-text"></div>
+<div class="boton-contact"> <a href="/contact.php">CONTACT</a></div>
+</div>    
 </div>
-</div>
+    <div class="cartel2">
+    
+    </div>
+    <div class="cartel3">
 
+    </div>
+</div>
 </section>
+
+   
 <section id="video">
     <div class="video-animado">
 <video src="video/bannervideo.mov" autoplay loop muted></video>
