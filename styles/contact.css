@@ -8,6 +8,7 @@ body {
 }
 h3{
     padding: 0 2em;  
+    padding-bottom: 40px;
 }
 .fondo{
     background-image: url(/images/contact/contact.jpg);
