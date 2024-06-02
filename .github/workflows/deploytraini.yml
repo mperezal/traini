@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy to Hostinger via FTP
-      uses: lukka/ftp-deploy-action@v1
+      uses: trainild/ftp-deploy-action@v1
       with:
         server: ${{ secrets.trainild.com }}
         username: ${{ secrets.u767806181 }}
