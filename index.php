@@ -13,7 +13,7 @@ include('inc/header.php')
 <div id="contenidos-cartel">
     <div class="cartel1">
     <h1>Welcome to my Website</h1>
-        <h2>Discover and Share My Passions</h2>
+        <h2>Discover and Share My Passion</h2>
         <ul class="temas">
     <li> E-learning</li>
     <li> LMS</li>
