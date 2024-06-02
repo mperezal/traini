@@ -19,6 +19,6 @@ jobs:
       with:
         server: ${{ secrets.trainild.com }}
         username: ${{ secrets.u767806181 }}
-        password: ${{ secrets.Estepario.1 }}
+        password: ${{ secrets.Franken }}
         local-dir: https://github.com/mperezal/traini
         server-dir: https://srv1423-files.hstgr.io/c7bc364074436902/files/public_html/
