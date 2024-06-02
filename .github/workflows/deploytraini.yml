@@ -17,7 +17,7 @@ jobs:
     - name: Deploy to Hostinger via FTP
       uses: lukka/ftp-deploy-action@v1
       with:
-        server: ${{ secrets.154.56.33.230 }}
+        server: ${{ secrets.trainild.com }}
         username: ${{ secrets.u767806181 }}
         password: ${{ secrets.Estepario.1 }}
         local-dir: https://github.com/mperezal/traini
