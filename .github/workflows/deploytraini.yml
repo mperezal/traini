@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy to Hostinger via FTP
-      uses: mperezal/traini@main
+      uses: mperezal/traini/.github/actions/ftp-deploy-action
       with:
         server: ${{ secrets.trainild.com }}
         username: ${{ secrets.u767806181 }}
