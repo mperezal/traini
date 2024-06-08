@@ -12,8 +12,8 @@ include('inc/header.php')
 <section id="cartel">
 <div id="contenidos-cartel">
     <div class="cartel1">
-    <h1>Welcome to my Website</h1>
-        <h2>Discover and Share My Passions</h2>
+    <h1>Welcome to my site</h1>
+        <h2>discover and share my passions</h2>
         <ul class="temas">
     <li> E-learning</li>
     <li> LMS</li>
