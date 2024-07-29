@@ -45,7 +45,7 @@ include('inc/header.php')
 <div id="contenidos-iconos">
     <div class="icono1"><img src="images/who.png" height="80px">
         <h2>About me</h2>
-        <h3>17 years of experience</h3>
+        <h3>19 years of experience</h3>
         <ul>
             <li> L&D manager and Consultant.</li>
             <li> Managing projects and teams getting results.</li>
