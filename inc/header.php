@@ -19,7 +19,7 @@
     <a href="/inventory.php" class="link">INVENTORY</a>
     <a href="/portfolio.php" class="link">PORTFOLIO</a>
     <a href="/around.php" class="link">AROUND L&D</a>
-   <a href="/contact.php" class="link">LET ME KNOW</a><a href="https://www.linkedin.com/in/miguel-p%C3%A9rez-%C3%A1lvarez-437354176/"> <img src="images/linkedin.png" class="linkedin"></a>
+   <a href="/contact.php" class="link">LET ME KNOW</a><a href="https://www.linkedin.com/in/miguel-p%C3%A9rez-%C3%A1lvarez-437354176/"> <img src="images/linkedin.png" class="linkedin"></a><a href="https://github.com/mperezal"> <img src="images/github.png" class="linkedin"></a>
     <label for="check" class="esconder-menu">
     &#215
 </label>
